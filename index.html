@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abdelrahman Samir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video class="video__loop" src="video-loop.mp4" autoplay loop>
+            <source src="./video-loop.mp4" type="video/mp4">
+        </video>
+        <header class="header">
+            <label for="menu" class="burger-menu">
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+              </label>
+      
+              <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+                    <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+                    <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
+                    <li><a href="#project" class="navigation__link navigation__project">Projects</a></li>
+                    <li><a href="#clients" class="navigation__link navigation__clients">My clients</a></li>
+                    <li><a href="#contact" class="navigation__link navigation__contact">Contact</a></li>
+                </ul>
+            </nav>  
+            <div class="toggle">
+                <h3 class="toggle__title">Switch Theme</h3>
+                <input type="checkbox" name="toggle checkbox" id="toggle" class="toggle__checkbox">
+                <label for="toggle" class="toggle__label"></label>
+            </div>
+        </header>
+        <section id="bio" class="bio section">
+            <div class="bio__information">
+                <h1 class="bio__heading">Hi There, I’M A Civil & Software Engineer</h1>
+                <p class="bio__objective">
+                    my name is <span class="bio__name">Abdelrahman Samir</span>, a co-founder of
+                    <a class="bio__stay-home" href="#">Stay-Home</a>, Software Engineer and a content
+                    creator who publish content on
+                    <a class="bio__facebook" href="#">Facebook</a>
+                    <a class="bio__linkedin" href="#">LinkedIn</a>
+                    <a class="bio__instagram" href="#">Instagram</a>
+                </p>
+                <a class="bio__link say-hi_link" href="#contact">Say Hi</a>
+                <a class="bio__link find-out_link" href="#">
+                    Download CV <span class="bio__arrow">↓</span>
+                </a>
+            </div>
+            <div class="bio__pic-content">
+                <img class="bio__pic" src="300376530_5382486558498883_8263131937351425898_n.jpg" alt="personal pic of Abdelrahman Samir">
+            </div>
+        </section>
+        <section2 id="skills" class="skills section">
+            <h2 class="skills__heading">Skills</h2>
+            <ul class="skills__content">
+                <li class="skills__items">
+                    <h2 class="skills__title html">HTML</h2>
+                    <span class="skills__years">4 years</span>
+                </li>
+                <li class="skills__items">
+                    <h2 class="skills__title css">CSS</h2>
+                    <span class="skills__years">4 years</span>
+                </li>
+                <li class="skills__items">
+                    <h2 class="skills__title javascript">Javascript</h2>
+                    <span class="skills__years">4 years</span>
+                </li>
+                <li class="skills__items">
+                    <h2 class="skills__title react">React</h2>
+                    <span class="skills__years">3 years</span>
+                </li>
+                <li class="skills__items">
+                    <h2 class="skills__title redux">Redux</h2>
+                    <span class="skills__years">1 year</span>
+                </li>
+                <li class="skills__items">
+                    <h2 class="skills__title react-testing-library">react testing library</h2>
+                    <span class="skills__years">1 year</span>
+                </li>
+            </ul>
+        </section2>
+        <section3 id="media" class="media section">
+            <video class="media__video" src="20230817_152155_1.mp4" controls>
+                <source src="./video.mp4" type="video/mp4"/>
+            </video>
+        </section3>
+        <section4 id="project" class="project section">
+            <h2 class="project__heading">My Featured Projects</h2>
+            <div class="project__main">
+                <img class="project__pic" src="project-1.jpg" alt="pic of project">
+                <div class="project__data">
+                    <h3 class="h3__heading">Quran Tab Extension</h3>
+                    <p class="project__description">
+                    Quran Tab is an Islamic new tab page that will keep you inspired by a verse from the Quran every time
+                    you open a new tab that helps you achieve your "Khatma" and keeps you connected with the words of Allah.
+                    </p>
+                    <a class="project__links" href="#" target="_blank">Chrome Link </a>
+                    <span>-</span>
+                    <a class="project__links" href="#" target="_blank">Edge Link</a>
+                </div>
+                <div class="project__data">
+                    <h3 class="h3__heading">Quran StationExtension</h3>
+                    <p class="project__description">
+                    Small extension that gives you access
+                    to over 100 stations to help you listen to the Quran from your favorite reciters easily
+                    Quran-Station has over 100 stations to help you listen to the Quran
+                    from your favorite reciters in a quick and easy way
+                    </p>
+                    <a class="project__links" href="#" target="_blank">Chrome Link </a>
+                    <span>-</span>
+                    <a class="project__links" href="#" target="_blank">Firefox Link</a>
+                    <span>-</span>
+                    <a class="project__links" href="#" target="_blank">Edge Link</a>
+                </div>
+                <img class="project__pic" src="project-2.jpg" alt="pic of project">
+            </div>
+        </section4>
+        <section5 id="clients" class="clients section">
+            <h2 class="clients__heading">WHAT MY <br>CLIENTS SAYS.</h2>
+            <div class="clients__opinions">
+                <div class="clients__wrapper">
+                    <p class="clients__opinion">Samir has the advantageous ability to understand a problem and implement code to a high standard within the deadline. Each project we have worked on, I know I can completely trust Samir to own his tasks and complete what is needed when asked of him.</p>
+                    <p class="clients__opinion">Abdelrahman will patiently listen to you and give you his own Ideas as well, and in the end, he comes up with something completely different from what you’re expecting, but the good news is, you’ll always love it.</p>
+                    <p class="clients__opinion">I had a chance to work closely with Samir as a direct manager from hist first day at DeliveryHero until my last day there (6+months). Samir's biggest strengths that I admire are taking initiatives on personal and team level, and driving them.</p>
+                </div>
+            </div>
+        </section5>
+        <section6 id="contact" class="contact section">
+            <div>
+                <p class="contact__description">
+                    Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away.
+                </p>
+                <a class="contact__email" href="mailto:abdelrahmansamir641@gmail.com">abdelrahmansamir641@gmail.com</a>
+                <div class="contact__socials">
+                    <a class="contact__social" href="#"><img src="facebook.svg" alt="facebook"></a>
+                    <a class="contact__social" href="#"><img src="twitter.svg" alt="twitter"></a>
+                    <a class="contact__social" href="#"><img src="youtube.svg" alt="youtube"></a>
+                    <a class="contact__social" href="#"><img src="github.svg" alt="github"></a>
+                    <a class="contact__social" href="#"><img src="instagram.svg" alt="instagram.svg"></a>
+                    <a class="contact__social" href="#"><img src="LinkedIn.svg" alt="LinkedIn.svg"></a>
+                </div>
+            </div>
+            <div class="contact__formcontent">
+                <h2 class="contact__heading">LET’S WORK<br>TOGETHER!</h2>
+                <form action="results.html">
+                    <div class="contact__inputs">
+                        <input class="contact__input" type="text" name="name" placeholder="FullName" required>
+                        <input class="contact__input" type="number" name="tel" placeholder="Phone No." required>
+                    </div>
+                    <textarea class="contact__input contact__textarea" name="message" id="message" rows="1" placeholder="Your Message" required></textarea>
+                    <input class="contact__button" type="submit" value="send message" required>
+                </form>
+            </div>
+        </section6>
+        <footer class="footer">© 2024 by Abdelrahman Samir</footer>
+    </div>
+</body>
+</html></html>
